@@ -9,7 +9,7 @@ const products = [
 ];
 const productName = products.map(x => x.color);
 console.log(productName);
-// map returns an array but foreach retuns nothing
+// map returns an array but foreach returns nothing
 // products.map(product => console.log(product));
 products.forEach(product => console.log(product));
 
