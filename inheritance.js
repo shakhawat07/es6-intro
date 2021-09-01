@@ -27,3 +27,6 @@ z.startSession('4pm');
 console.log(x);
 console.log(y);
 console.log(z);
+// __proto__ is used to find the parent of that class
+console.log(z.__proto__.__proto__.__proto__.__proto__);
+console.log(z.hasOwnProperty('sessionTime'));
